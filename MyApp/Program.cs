@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("==== Ejercicio 1 ====");
 
-Console.WriteLine("Ingrese el numero a invertir (mayor a 0): ");
+Console.WriteLine("Ingrese el número a invertir (mayor a 0): ");
 int numero = Convert.ToInt32(Console.ReadLine());
 
 if (numero > 0)
@@ -12,7 +12,7 @@ if (numero > 0)
         numeroInvertido = (numeroInvertido * 10) + ultimoDigito;
         numero = numero / 10;
     }
-    Console.WriteLine("El numer invertido es: " + numeroInvertido);
+    Console.WriteLine("El número invertido es: " + numeroInvertido);
 }
 else
 {
