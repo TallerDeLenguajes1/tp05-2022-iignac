@@ -47,40 +47,40 @@ do
     switch (operacion)
     {
         case 1:
-            Console.WriteLine($"El resultado de la suma es: {sumar(num1, num2)}");
+            Console.WriteLine($"La suma de {num1} y {num2} es igual a: {sumar(num1, num2)}");
             break;
         case 2:
-            Console.WriteLine($"El resultado de la resta es: {restar(num1, num2)}");
+            Console.WriteLine($"La resta de {num1} y {num2} es igual a: {restar(num1, num2)}");
             break;
         case 3:
-            Console.WriteLine($"El resultado del producto es: {multiplicar(num1, num2)}");
+            Console.WriteLine($"La multiplicación de {num1} por {num2} es igual a: {multiplicar(num1, num2)}");
             break;
         case 4:
-            Console.WriteLine($"El resultado de la división es: {dividir(num1, num2)}");
+            Console.WriteLine($"La división de {num1} en {num2} es igual a: {dividir(num1, num2)}");
             break;
         case 5:
-            Console.WriteLine($"El valor absoluto es: {valorAbsoluto(num1)}");
+            Console.WriteLine($"El valor absoluto de {num1} es igual a: {valorAbsoluto(num1)}");
             break;
         case 6:
-            Console.WriteLine($"El cuadrado es: {cuadrado(num1)}");
+            Console.WriteLine($"El cuadrado de {num1} es igual a: {cuadrado(num1)}");
             break;
         case 7:
-            Console.WriteLine($"La raíz cuadrada es: {raizCuadrada(num1)}");
+            Console.WriteLine($"La raíz cuadrada de {num1} es igual a: {raizCuadrada(num1)}");
             break;
         case 8:
-            Console.WriteLine($"El seno es: {seno(num1)}");
+            Console.WriteLine($"El seno de {num1} es igual a: {seno(num1)}");
             break;
         case 9:
-            Console.WriteLine($"El coseno es: {coseno(num1)}");
+            Console.WriteLine($"El coseno de {num1} es igual a: {coseno(num1)}");
             break;
         case 10:
-            Console.WriteLine($"La parte entera es: {parteEntera(num1)}");
+            Console.WriteLine($"La parte entera de {num1} es igual a: {parteEntera(num1)}");
             break;
         case 11:
-            Console.WriteLine($"El máximo entre los números es: {maximo(num1, num2)}");
+            Console.WriteLine($"El máximo entre {num1} y {num2} es igual a: {maximo(num1, num2)}");
             break;
         case 12:
-            Console.WriteLine($"El mínimo entre los números es: {minimo(num1, num2)}");
+            Console.WriteLine($"El mínimo entre {num1} y {num2} es igual a: {minimo(num1, num2)}");
             break;
     }
 
