@@ -6,20 +6,20 @@ Muñoz Quiroga David Ignacio
 Es un tipo por referencia
 
 ## ¿Qué secuencias de escape tiene el tipo string?
-\'	Comilla simple	
-\"	Comilla doble	
-\\	Barra diagonal inversa	
-\0	Null	
-\a	Alerta	
-\b	Retroceso	
-\f	Avance de página
-\n	Nueva línea	
-\r	Retorno de carro	
-\t	Tabulación horizontal	
-\v	Tabulación vertical	0x000B
-\u	Secuencia de escape Unicode (UTF-16)
-\U	Secuencia de escape Unicode (UTF-32)
-\x	Secuencia de escape Unicode similar a "\u" excepto con longitud variable
+* \'	Comilla simple  
+* \"	Comilla doble
+* \\	Barra diagonal inversa	
+* \0	Null	
+* \a	Alerta	
+* \b	Retroceso	
+* \f	Avance de página
+* \n	Nueva línea	
+* \r	Retorno de carro	
+* \t	Tabulación horizontal	
+* \v	Tabulación vertical	0x000B
+* \u	Secuencia de escape Unicode (UTF-16)
+* \U	Secuencia de escape Unicode (UTF-32)
+* \x	Secuencia de escape Unicode similar a "\u" excepto con longitud variable
 
 ## ¿Qué sucede cuando utiliza el carácter @ y $ antes de una cadena de texto?
 Los caracteres especiales @ y $ son caracteres contextuales predefinidos que modifican el elemento de programa (una cadena literal, un identificador o un nombre de atributo) para que se antepongan. 
